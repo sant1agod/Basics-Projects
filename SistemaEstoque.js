@@ -1,7 +1,7 @@
 SaldoInicial = parseInt(prompt("Qual o saldo inicial de peças?"));
 document.write("Saldo Inicial: " + SaldoInicial + "<br>");
 encerrar = "n";
-while(encerrar == "n");
+while(encerrar == "n")
 {
 TipoDeEntrada = parseInt(prompt("Digite 1 para compra de peças e 2 para venda de Peças"));  
 if(TipoDeEntrada == 1)
